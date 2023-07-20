@@ -18,7 +18,7 @@
       <tbody>
         <tr v-for="url in urls" :key="url.id">  
         <td>
-          <a href="#">{{ url.longurl }}</a>
+          <a href="url.longurl">{{ url.longurl }}</a>
         </td>
         <td>
           <a :href="'http://localhost:5000/url/' + url.shorturl">{{ url.shorturl }}</a>
